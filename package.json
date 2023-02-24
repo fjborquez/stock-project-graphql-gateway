@@ -1,0 +1,25 @@
+{
+  "name": "stock-project-graphql-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fjborquez/stock-project-graphql-gateway.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fjborquez/stock-project-graphql-gateway/issues"
+  },
+  "homepage": "https://github.com/fjborquez/stock-project-graphql-gateway#readme",
+  "dependencies": {
+    "@apollo/gateway": "^2.3.2",
+    "@apollo/server": "^4.4.0"
+  }
+}
