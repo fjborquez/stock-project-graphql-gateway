@@ -20,6 +20,8 @@
   "homepage": "https://github.com/fjborquez/stock-project-graphql-gateway#readme",
   "dependencies": {
     "@apollo/gateway": "^2.3.2",
-    "@apollo/server": "^4.4.0"
+    "@apollo/server": "^4.4.0",
+    "@as-integrations/aws-lambda": "^2.0.1",
+    "graphql": "^16.6.0"
   }
 }
