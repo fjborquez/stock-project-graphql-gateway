@@ -6,7 +6,7 @@ const gateway = new ApolloGateway({
   supergraphSdl: new IntrospectAndCompose({
     subgraphs: [
        { name: "news", url: "https://n5etgb7mr5.execute-api.us-east-1.amazonaws.com/graphql" },
-       { name: "submissions", url: "https://gimdmyklce.execute-api.us-east-1.amazonaws.com/graphql" },
+       { name: "companies", url: "https://ifaycwwhtj.execute-api.us-east-1.amazonaws.com/graphql" },
     ],
   }),
 });
